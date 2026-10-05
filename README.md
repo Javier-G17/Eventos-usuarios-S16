@@ -99,27 +99,6 @@ restaurante_app/
 
 ## Nueva funcionalidad
 
-**Inicio de sesión**
-
-- Validación de usuarios.
-- Acceso al sistema mediante usuario y contraseña.
-- Verificación de credenciales desde RestauranteServicio.
-
-**Gestión de productos**
-
-- Registrar productos.
-- Consultar productos.
-- Actualizar productos.
-- Eliminar productos.
-- Control de stock.
-
-**Gestión de ventas**
-
-- Registro de ventas.
-- Validación de existencia de productos.
-- Actualización automática del inventario.
-- Persistencia en archivo JSON.
-
 **Gestión de usuarios**
 
 - Registrar usuarios.
@@ -144,9 +123,9 @@ El usuario Administrador tiene acceso a la gestión de usuarios. Los usuarios Em
 **Evento Treeview**
 
 Se utiliza el evento:
-
+```text
 <<TreeviewSelect>>
-
+```
 Cuando el usuario selecciona una fila de la tabla:
 
 1. Se obtiene el identificador del registro.
@@ -172,9 +151,9 @@ Formulario
 **Evento Enter**
 
 Se utiliza:
-
+```text
 <Return>
-
+```
 Permite registrar un usuario presionando la tecla Enter.
 
 El callback reutiliza el método de registro existente para evitar duplicación de lógica.
@@ -184,9 +163,9 @@ El callback reutiliza el método de registro existente para evitar duplicación 
 **Evento Escape**
 
 Se utiliza:
-
+```text
 <Escape>
-
+```
 Permite:
 
 - Limpiar el formulario.
@@ -198,9 +177,9 @@ Permite:
 **Evento Combobox**
 
 Se utiliza:
-
+```text
 <<ComboboxSelected>>
-
+```
 Permite responder al cambio del rol seleccionado en el formulario de usuarios.
 
 ---
