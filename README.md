@@ -23,36 +23,26 @@ Esta versión corresponde a la evolución realizada en la Semana 16, donde se in
 
 ```text
 restaurante_app/
-├── assets/
-│   ├── icons/
-│   │   ├── home.png
-│   │   ├── users.png
-│   │   ├── products.png
-│   │   ├── sales.png        
-│   │   ├── logout.png
-│   │   ├── add.png
-│   │   ├── edit.png
-│   │   ├── delete.png
-│   │   ├── search.png
-│   │   └── clean.png
-│   └── logo/
-│       ├── logo.png
-│       └── icono.png
 ├── datos/
 │   ├── productos.json
 │   ├── usuarios.json
 │   └── ventas.json
 ├── modelos/
-│   ├── usuario.py
+│   ├── __init__.py
 │   ├── producto.py
+│   ├── usuario.py
 │   └── venta.py
 ├── servicios/
+│   ├── __init__.py
 │   ├── archivo_servicio.py
 │   └── restaurante_servicio.py
 ├── ui/
+│   ├── __init__.py
 │   ├── login_view.py
 │   └── main_view.py
-└── main.py
+├── assets/                  
+├── main.py
+└── README.md
 ```
 
 ## Capas
